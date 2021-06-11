@@ -2,7 +2,7 @@ body {
     font-family: arial, sans-serif;
 }
 
-.icon {
+#menu {
     width: 25px;
     height: 25px;
 }
@@ -17,15 +17,15 @@ header .left {
 header .right {
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 10px;
 }
 
 main {
-    width: 300px;
+    width: 700px;
     height: 100px;
-    margin: auto;
     position: relative;
     top: 130px;
+    left: 485px;
 }
 
 footer {
@@ -78,5 +78,39 @@ nav div a:hover {
 nav .right img {
     position: relative;
     top: 8px;
-    left: 6px
+    left: 0px;
+}
+
+input {
+    border: none;
+    font-size: 16px;
+    line-height: 34px;
+    outline: none;
+    height: 34px;
+    width: 500px;
+    position: relative;
+    right: 120px;
+    top: 20px;
+}
+
+#search, #mic {
+    width: 20px;
+    height: 20px;
+}
+
+#search {
+    position: relative;
+    right: 130px;
+    top: 24px;
+}
+
+#mic {
+    position: relative;
+    top: 26px;
+    right: 114px;
+}
+
+main .buttons {
+    position: relative;
+    top: 60px;
 }
