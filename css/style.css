@@ -1,0 +1,39 @@
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+header .left {
+    float: left;
+}
+
+header .right {
+    float: right;
+}
+
+main {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: 130px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer .left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+footer .right {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
