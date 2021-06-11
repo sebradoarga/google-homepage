@@ -8,11 +8,16 @@ body {
 }
 
 header .left {
-    float: left;
+    position: absolute;
+    left: -7px;
+    top: 20px;
+
 }
 
 header .right {
-    float: right;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 main {
@@ -55,4 +60,16 @@ footer .right {
 
 button {
     border-radius: 2px;
+}
+
+nav div a {
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+nav div a:hover {
+    text-decoration: underline;
 }
