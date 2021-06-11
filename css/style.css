@@ -1,3 +1,7 @@
+body {
+    font-family: arial, sans-serif;
+}
+
 .icon {
     width: 25px;
     height: 25px;
@@ -36,4 +40,19 @@ footer .right {
     position: absolute;
     right: 0px;
     bottom: 0px;
+}
+
+.right button {
+    background: linear-gradient(180deg,#4387fd,#4683ea);
+    color: white;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    line-height: 28px;
+    padding: 0 12px;
+    cursor: default;
+    font-size: 13px;
+}
+
+button {
+    border-radius: 2px;
 }
